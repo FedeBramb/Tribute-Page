@@ -1,0 +1,81 @@
+html {
+    /* Setting a base font size of 10px give us easier rem calculations
+         Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+       */
+    font-size: 10px;
+  }
+
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.6rem;
+    color: #D7E7F5;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+
+#main {
+    background-color: #00171F;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+
+
+h1 {
+    font-size: 4em;
+}
+@media screen and (max-width: 600px) {
+    h1 {
+      font-size: 2.5em;
+    }
+  }
+
+h1, h3 {
+    text-align: center;
+}
+
+#img-div {
+    width: 60%;
+    padding-bottom: 5px;
+    background-color: #022742;
+    text-align: center;
+    margin: auto;
+    border-radius: 9px;
+    box-shadow: 0 0 3px 3px #022742;
+}
+
+
+#image {
+    width: 96%;
+    max-width: 100%;
+    display: block;
+    margin: 15px auto 2px auto;
+    border-radius: 9px;
+    
+}
+
+#img-caption {
+    color:#A2AFBA;
+
+}
+
+#tribute-info {
+    width: 60%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#tribute-link {
+    color:azure
+}
+
